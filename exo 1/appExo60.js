@@ -9,5 +9,4 @@ for (let i = 0; i < itemList.length; i++){
 
 let objList = document.getElementsByTagName("ul");
 console.log(objList);
-console.log(objList.style.listStyleType);
-
+objList.style.listStyleType = "circle";
